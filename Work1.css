@@ -1,0 +1,132 @@
+* {
+box-sizing:border-box;
+}
+
+body {
+background:#FFF;
+}
+
+html,body {
+font-family:'Tall Films Fine';
+margin:10px;
+padding:0;
+}
+
+#heading {
+color:#789;
+font-size:50px;
+letter-spacing:.02em;
+font-family:'Tall Films Fine';
+padding-bottom:0;
+width:105%;
+margin-left:550px;
+}
+
+#heading h1 {
+margin-bottom:0;
+}
+
+u {
+text-decoration:none;
+border-bottom:1px solid LightSlateGrey;
+}
+
+​
+p {
+color:#789;
+text-align:center;
+font-size:50px;
+letter-spacing:.02em;
+font-family:'Tall Films Fine';
+width:105%;
+}
+
+.wrapper_lp {
+display:flex;
+}
+
+#landingpage {
+justify-content:left;
+margin-left:560px;
+width:100%;
+}
+
+#nav_lp {
+padding-bottom:50px;
+padding-top:0;
+background-color:none;
+}
+
+#nav_lp ul {
+list-style:none;
+}
+
+#nav_lp li {
+display:inline-block;
+}
+
+#nav_lp U {
+font-family:'Tall Films Fine', sans-serif;
+font-weight:400;
+font-size:30px;
+color:#789;
+padding-bottom:0;
+position:relative;
+margin:0 20px;
+}
+
+#nav_lp a {
+font-family:'Tall Films Fine', sans-serif;
+font-weight:400;
+font-size:30px;
+color:#789;
+padding-bottom:0;
+position:relative;
+text-decoration:none;
+margin:0 20px;
+}
+
+#nav_lp a:after {
+content:"";
+display:block;
+width:100%;
+position:absolute;
+background:#000;
+height:1px;
+bottom:0;
+opacity:0;
+transform:translateY(10px);
+margin:0 20px;
+}
+
+#nav_lp a.selected:after,#nav_lp a:hover:after {
+opacity:1;
+transform:translateY(0px);
+}
+
+#nav_lp .active {
+color:#000;
+}
+
+img {
+display:block;
+width:100%;
+height:auto;
+}
+
+img:hover {
+height:460px;
+width:460px;
+}
+
+.wrapper {
+width:900px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.box {
+width:33.33%;
+float:left;
+padding:50px;
+}
