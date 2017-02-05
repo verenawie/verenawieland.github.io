@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+background: White;
+position: fixed;
+}
+
+html, body {
+  margin: 10;
+  padding: 0;
+  font-family: 'Tall Films Fine';
+}
+
+#heading {
+  color: LightSlateGray ;
+  font-size: 50px;
+  letter-spacing:0.02em;
+  font-family: 'Tall Films Fine';
+  padding-bottom: 0px;
+  width: 105%;
+  margin-left: 550;
+}
+
+#heading h1 {
+  margin-bottom: 0px;
+}
+
+u {
+   text-decoration: none;
+   border-bottom: 1px solid LightSlateGrey;
+ }​
+
+p {
+color: LightSlateGray ;
+text-align: center;
+font-size: 50px;
+letter-spacing:0.02em;
+font-family: 'Tall Films Fine';
+width: 105%;
+}
+
+  .wrapper_lp {
+      display: flex;
+      text-align: center;
+  }
+
+  #landingpage {
+      justify-content: left;
+      margin-left: 500;
+      width: 100%;
+      margin-right: 0;
+      z-index: 0;
+  }
+
+  #nav_lp {
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 0px;
+      background-color: none;
+      padding-bottom: 0px;
+  }
+
+  #nav_lp ul {
+      list-style: none;
+  }
+
+  #nav_lp li{
+      display: inline-block;
+  }
+
+  #nav_lp U{
+      font-family: 'Tall Films Fine', sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      margin: 0px 20px;
+      color: LightSlateGray;
+      padding-bottom: 0px;
+      position: relative;
+  }
+
+  #nav_lp a{
+      font-family: 'Tall Films Fine', sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      margin: 0px 20px;
+      color: LightSlateGray;
+      padding-bottom: 0px;
+      position: relative;
+      text-decoration: none;
+  }
+
+  #nav_lp a:after{
+      content: "";
+      display: block;
+      width: 100%;
+      margin: 0px 1px;
+      position: absolute;
+      background: black;
+      height: 1px;
+      bottom: 0;
+      opacity: 0;
+      transform: translateY(10px);
+  }
+
+  #nav_lp a.selected:after, #nav_lp a:hover:after{
+    opacity: 1;
+      transform: translateY(0px);
+  }
+
+  #nav_lp .active {
+      color:  black;
+  }
+
+p {
+  color: LightSlateGray ;
+  font-size: 50px;
+  letter-spacing:0.02em;
+  font-family: 'Tall Films Fine';
+}
