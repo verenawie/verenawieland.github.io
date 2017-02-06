@@ -111,7 +111,7 @@ color:#000;
 img {
 display:block;
 width:100%;
-height:auto;
+height: auto;
 }
 
 img:hover {
@@ -123,10 +123,11 @@ width:460px;
 width:900px;
 margin-left:auto;
 margin-right:auto;
+margintop: 0;
 }
 
 .box {
 width:33.33%;
 float:left;
-padding:50px;
+padding: 30px;
 }
